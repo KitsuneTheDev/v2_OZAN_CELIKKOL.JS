@@ -205,6 +205,7 @@
     .atc-button{
       font-family: "Poppins", sans-serif;
       font-weight: 700;
+      font-size: 1.4rem;
       width: 90%;
       height: 48px;
       margin-bottom: 13px;
@@ -245,15 +246,16 @@
         padding: 0;
       }
 
-      h2{
+      .carousel-body h2{
         width: 100%;
         background-color: #fef6eb;
         display: flex;
         border-top-right-radius: 2rem;
         border-top-left-radius: 2rem;
+        font-size: 3rem;
+        font-weight: 700;
         align-items: center;
         padding: 25px 67px;
-        font-size: 3rem;
       }
 
       .hearth-icon{
@@ -262,7 +264,7 @@
     }
 
     @media(min-width: 1280px) {
-
+    
       .card-container{
         flex: 0 0 calc((100% - 60px) / 4);
       }
